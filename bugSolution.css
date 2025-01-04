@@ -1,0 +1,9 @@
+/* bugSolution.css */
+
+/* Use more specific selectors to override styles */
+#myElement.myClass {
+  color: blue !important; /* Only use !important as a last resort */
+}
+
+/* Or restructure your CSS to avoid conflicts */
+/* Place more specific styles later in the stylesheet */
